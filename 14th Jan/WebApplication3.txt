@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+
+    /*tag selector*/
+        h1{
+            color:lightseagreen;
+            font-family:Algerian;
+    }
+        /*id selector*/
+        #pname{
+            color:crimson;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        /*Class selector*/
+        .p2{
+            background-color:cyan;
+            font-family:Calibri;
+            font-size:30px;
+        }
+
+        /*Attribute Selector*/
+        input[type="text"] {
+            background-color:antiquewhite;
+            color:hotpink;
+        }
+
+        /*Universal Selector*/
+        *{
+            font-style:italic;
+        }
+
+        /*Group Selector*/
+        h3,h1 {
+            color:blueviolet;
+            font-size:50px;
+        }
+
+        /*(Inner tag Selector)Here space indicates inner element*/
+        div p{
+            color:coral;
+        }
+
+        /*Child Selector*/
+        div>p{
+            color:darkolivegreen;
+            font-size:80px;
+        }
+
+        /*Immediate Selector*/
+        div+p{
+            color:darkkhaki;
+            font-size:40px;
+        }
+
+        /*Preceedence Selector*/
+        div~p{
+            color:chartreuse;
+            font-size:27px;
+             font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: yellow; font-size: 24px; background-color: bisque ">Welcome to CSS</h3>
+    <p id="pname">Welcome to BookYourHotel Website</p>
+    <p class="p2">Hotel Booking facility at your doorstep</p>
+    <p>Welcome to BookYourHotel Website</p>
+    <h2 class="p2">Welcome to Chennai</h2>
+    <div><p>Welcome to CTS</p></div>
+    <h3>Username</h3><input type="text" />
+    <h3>Password</h3><input type="password" />
+    <h1>Welcome to CSS</h1>
+   
+    <div>Selector</div>
+    <p>Immediate after div</p>
+
+</body>
+</html>
