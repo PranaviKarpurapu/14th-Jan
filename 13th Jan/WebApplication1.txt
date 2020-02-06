@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MyWebSite</title>
+    <!-- a web application hosted on server we should give relative path -->
+    <base href="Image\" />
+    <meta name="description" content="Free Web Tutorials" />
+    <meta name="keywords" content="HTML,CSS,XML,Javascript" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+</head>
+<body>
+    <!--<h1>This is a heading</h1>
+    <h2>This is a heading</h2>
+    <h3>This is a heading</h3>
+    <h4>This is a heading</h4>
+    <h5>This is a heading</h5>
+    <h6>This is a heading</h6>
+
+    <h1 style="align-self:center;text-align:center;color:red" >Examples</h1>
+
+    <h2>First Paragraph</h2>
+    <p>This is some sample text inside p element</p>
+
+    <h2>Second Paragraph</h2>
+    <p>This is some sample text inside p element</p>
+
+    <p>This is an Image</p>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61VWXRkBeSL._SX425_.jpg" alt="No Image" height="160" width="140" />
+
+
+    <!--<p> Welcome to CTS<span>&nbsp;Chennai</span></p>
+    <p>Name<br />Address<br />City & State <br />PinCode</p>-->
+
+    <a href="https://google.com"> <img src="https://images-na.ssl-images-amazon.com/images/I/61VWXRkBeSL._SX425_.jpg" alt="No Image" height="160" width="140" /></a>
+    <!--<a href="Second Page.html">Second Page.html</a>-->
+
+    <ul style="list-style-type:disc;">
+        <li>LAPTOP</li>
+        <ul>
+            <li><a href="Ex1.html">A</a></li>
+            <li><a href="Ex2.html">B</a></li>
+            <li><a href="Ex3.html">C</a></li>
+        </ul>
+    </ul>
+
+    <li>PHONE</li>
+    <ol>
+        <li><a href="Ex1.html">A</a></li>
+        <li><a href="Ex2.html">B</a></li>
+        <li><a href="Ex3.html">C</a></li>
+    </ol>
+
+    <!-- Descriptive List -->
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White Cold drink</dd>
+    </dl>
+
+    <audio controls autoplay="autoplay" loop><source src="" type="audio/mp3" /></audio>
+    <video controls autoplay="autoplay" height="400" width="300"><source src="" type="video/ogg"/></video>
+
+</body>
+</html>

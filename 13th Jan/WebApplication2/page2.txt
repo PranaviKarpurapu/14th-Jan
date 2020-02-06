@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 id="head">User Registration Details</h1>
+    <h3 class="head3">Please fill the following details</h3>
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th align="left">details</th>
+                <th align="center">details</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>FirstName : </td>
+            <td><input type="text" disabled value="CTS" title="Organization" /></td>
+        </tr>
+        <tr>
+
+            <td>LastName : </td>
+            <td><input type="text" required pattern="[a-z]{3,10}"/></td>
+        </tr>
+        <tr>
+            <td>Age : </td>
+            <td><input type="number" max="60" min="20"/></td>
+        </tr>
+        <tr>
+            <td>Gender : </td>
+       
+            <td>
+                <select name="gender">
+                    <option name="Male" value="Male">Male</option>
+                    <option name="Female" value="Female">Female</option>
+                </select>
+            </td>
+        
+        </tr>
+        <tr>
+            <td>Date of Birth : </td>
+            <td><input type="text" /></td>
+        </tr>
+        <tr>
+            <td>Address </td>
+            <td><textarea rows="5"></textarea>
+        </tr>
+        
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Country</legend>
+                    <input type="radio" name="country" />India
+                    <input type="radio" name="country" />USA
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+
+</body>
+</html>
